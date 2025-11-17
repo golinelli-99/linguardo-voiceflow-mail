@@ -18,7 +18,7 @@ app.post("/send", async (req, res) => {
 
     await transporter.sendMail({
       from: process.env.GMAIL_USER,
-      to: "email_destinatario@example.com", // <-- QUI METTEREMO la mail della persona X
+      to: "alessandrogolinelliscuola@gmail.com", // <-- QUI METTEREMO la mail della persona X
       subject: "Nuovo messaggio dal cliente",
       text: messaggio
     });
