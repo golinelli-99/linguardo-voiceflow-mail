@@ -11,7 +11,7 @@ app.post("/send", async (req, res) => {
 
   try {
     const data = await resend.emails.send({
-      from: "IlTuoBot <tuo_nome@tuodominio.resend.dev>",
+      from: "IlTuoBot <tuo_nome@resend.dev>",
       to: "alessandrogolinelliscuola@gmail.com",
       subject: "Nuovo messaggio dal cliente",
       text: messaggio
