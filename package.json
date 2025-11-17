@@ -1,9 +1,13 @@
 {
-  "name": "linguardo-voiceflow-mail",
+  "name": "voiceflow-email",
   "version": "1.0.0",
   "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "express": "^4.18.2",
-    "nodemailer": "^6.9.4"
+    "express": "^4.19.2",
+    "resend": "^3.2.0"
   }
 }
